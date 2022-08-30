@@ -1,36 +1,74 @@
 
 
-
 * {
     background-color: honeydew;
     color:slategrey;
-    font-size: 20px;
+    font-size: 18px;
     font-family: fantasy;
     
 }
 
 
 h1 {
-
     color: darkblue;
-    font-size: 50px;
-  
-   
-    
+    font-size: 50px; 
+    margin-left: 20;
+    text-align: center;
+    background-color:gold;
 }
 
 a {
-    font-family: cursive;
-    font-weight: 700;
-    font-size: medium;
-}
- 
-
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 3;
+    color: white;
+    border-radius: 40px;
+    
+  }
+  
+  a:link, a:visited, a:focus {
+    background: darkblue;
+  }
+  
+  a:hover {
+    background: grey;
+  }
+  
+  a:active {
+    background: black;
+    color: white;
+  }
 
 li {
 font-size: medium;
+
+
 }
 
-.blue.unordered {
-    color:blue;
- }
+h2 {
+    color: darkblue;
+    margin-left: 70;
+    background-color:gold;
+    border-radius: 40px;
+   
+
+}
+
+/* img*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+
+p {
+    text-align: center;
+    margin-left: 20;
+}
+
+
+
