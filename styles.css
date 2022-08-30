@@ -1,0 +1,36 @@
+
+
+
+* {
+    background-color: honeydew;
+    color:slategrey;
+    font-size: 20px;
+    font-family: fantasy;
+    
+}
+
+
+h1 {
+
+    color: darkblue;
+    font-size: 50px;
+  
+   
+    
+}
+
+a {
+    font-family: cursive;
+    font-weight: 700;
+    font-size: medium;
+}
+ 
+
+
+li {
+font-size: medium;
+}
+
+.blue.unordered {
+    color:blue;
+ }
