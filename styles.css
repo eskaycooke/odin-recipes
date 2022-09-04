@@ -5,6 +5,8 @@
     color:slategrey;
     font-size: 18px;
     font-family: fantasy;
+    padding: 10px;
+
     
 }
 
@@ -49,19 +51,20 @@ font-size: medium;
 
 h2 {
     color: darkblue;
-    margin-left: 70;
+    margin-left: 40;
     background-color:gold;
     border-radius: 40px;
+    text-align: center;
    
 
 }
 
 /* img*/
-.center {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 30%;
   }
 
 
