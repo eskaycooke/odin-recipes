@@ -6,7 +6,7 @@
     font-size: 18px;
     font-family: fantasy;
     padding: 10px;
-
+    
     
 }
 
@@ -16,22 +16,27 @@ h1 {
     font-size: 50px; 
     margin-left: 20;
     text-align: center;
-    background-color:gold;
+    background-color:goldenrod;
+    border-radius: 40px;
+    outline: 2px solid darkblue;
+    
 }
 
 a {
     flex: 1;
     text-decoration: none;
-    outline: none;
+    outline: 3px solid goldenrod;
     text-align: center;
     line-height: 3;
     color: white;
     border-radius: 40px;
     
+   
   }
   
   a:link, a:visited, a:focus {
     background: darkblue;
+    outline: 3px solid goldenrod;
   }
   
   a:hover {
@@ -50,11 +55,12 @@ font-size: medium;
 }
 
 h2 {
-    color: darkblue;
+    color: white;
     margin-left: 40;
-    background-color:gold;
+    background-color: darkblue;
     border-radius: 40px;
     text-align: center;
+    outline: 2px solid goldenrod;
    
 
 }
@@ -65,7 +71,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-  }
+    border: 5px solid darkgoldenrod;
+    border-radius: 40px;
 
 
 p {
