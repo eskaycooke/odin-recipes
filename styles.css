@@ -1,5 +1,4 @@
 
-
 * {
     background-color: honeydew;
     color:slategrey;
@@ -48,8 +47,9 @@ a {
     color: white;
   }
 
-li {
+ul, ol {
 font-size: medium;
+display: inline;
 
 
 }
@@ -71,14 +71,22 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    border: 5px solid darkgoldenrod;
+    border: 3px solid darkgoldenrod;
     border-radius: 40px;
 
-
+}
 p {
     text-align: center;
-    margin-left: 20;
+   
 }
 
-
+div {
+  border: 3px solid darkgoldenrod;
+  background-color: honeydew;
+  box-sizing: border-box;
+  display: flex; 
+  border-radius: 40px;
+  padding: 20px;
+ 
+}
 
